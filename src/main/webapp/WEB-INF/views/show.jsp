@@ -13,7 +13,7 @@
     <h2>欢迎来到用户中心</h2>
     
     <p>用户名：<%= request.getAttribute("name") %> </p>
-    <h3>${name}</h3>
+    <p>${name}</p>
     
 </body>
 </html>

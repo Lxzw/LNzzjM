@@ -5,7 +5,7 @@
 <body>
 <h2>用户登录</h2>
 
-<form action="/LNzzjM/login">
+<form action="/LNzzjM/login" method="post">
   <p> 用户名： </p> <input type="text" name="username" />
   <p> 密   码：  </p> <input type="password" name="password" />
   <p><input type="submit" value="登录"/> </p>
