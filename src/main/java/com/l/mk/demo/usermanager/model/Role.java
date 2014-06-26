@@ -2,14 +2,14 @@ package com.l.mk.demo.usermanager.model;
 
 public class Role {
 	
-	private String id; //角色id
+	private int id; //角色id
 	private int type;//角色类型（access/menu/）
 	private int value;//角色值
 	
-	public String getId() {
+	public int getId() {
 		return id;
 	}
-	public void setId(String id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 	public int getType() {

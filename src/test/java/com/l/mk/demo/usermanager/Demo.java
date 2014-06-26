@@ -26,7 +26,6 @@ public class Demo {
 		session.beginTransaction();
 		session.save(role);
 		session.getTransaction().commit();
-		
 	}
 
 }

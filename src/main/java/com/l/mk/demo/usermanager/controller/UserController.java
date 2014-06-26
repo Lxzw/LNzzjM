@@ -23,12 +23,13 @@ public class UserController {
 	public String login(@RequestParam String username,
 						@RequestParam String password,
 						Model model) {
-		if (map.get(username).equals(password)) {
+		if (map.get(username)!=null && 
+				map.get(username).equals(password)) {
 		    model.addAttribute("name", username);
 		    return "/show";
 		}
 		
-		model.addAttribute("error", "用户名不存在");
+		model.addAttribute("error", "用户密码错误");
 		return "/index";
 		
 	}

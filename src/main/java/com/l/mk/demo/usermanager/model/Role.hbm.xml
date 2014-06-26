@@ -3,10 +3,12 @@
         "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping package="com.l.mk.demo.usermanager.model">
-	<class name="Event" table="role">
+	<class name="Role" table="role">
 		<id name="id" column="id">
 			<generator class="native" />
 		</id>
+		<property name="type" type="integer"/>
+        <property name="value" type="integer"/>
 	</class>
 </hibernate-mapping>
 
